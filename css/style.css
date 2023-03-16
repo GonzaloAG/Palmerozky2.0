@@ -3,34 +3,48 @@ body{
 }
 
 header {
-    background-color: red;
-    height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 20px;
+    background-color: red;
+    color: #FFFFFF;
+    height: 150px;
+    padding: 20px;
+    box-sizing: border-box;
   }
   
-  .palmerozky {
-    color: white;
-    font-size: 32px;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  header h1 {
+    font-size: 3em;
+    font-weight: bold;
+    margin-right: 70px;
   }
   
-  .palmerozky:hover {
-    text-decoration: underline;
+  header img.logo {
+    max-height: 100%;
+    max-width: 100%;
+    height: auto;
+    width: auto;
   }
   
   .fa-shopping-cart {
-    font-size: 24px;
-    color: white;
-    margin-left: 10px;
+    font-size: 3em; /* Ajusta el tamaño del icono a tu gusto */
+    color: #fff; /* Color del icono (blanco en este caso) */
+    border-radius: 50%; /* Redondea las esquinas del icono */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Agrega una sombra */
+    background-color: #000; /* Color de fondo del botón (negro en este caso) */
+    padding: 0.3em; /* Ajusta el espacio interno del botón a tu gusto */
+    margin-right: 1em; /* Ajusta el margen derecho a tu gusto */\ 
+  }
+
+  header a {
+    color: #FFFFFF;
+    text-decoration: none;
   }
   
-  .fa-shopping-cart:hover {
-    color: black;
+  header a:hover {
+    text-decoration: underline;
   }
 
   #Header-img{
-    width: 100px;
+    width: 150px;
   }
